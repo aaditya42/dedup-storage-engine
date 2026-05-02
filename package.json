@@ -1,0 +1,24 @@
+{
+  "name": "dedup-file-storage-engine",
+  "version": "1.0.0",
+  "description": "Production-ready deduplicated file storage engine with chunking, SHA-256 hashing, and reference counting",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["deduplication", "file-storage", "chunking", "sha256"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "ioredis": "^5.7.0",
+    "mongoose": "^8.15.1",
+    "multer": "^1.4.5-lts.2",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  }
+}
